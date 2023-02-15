@@ -5,8 +5,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Console c1 = new Console("Steam Deck");
-		Console c2 = new Console("Nintendo Switch");
+		Console c1 = new Console("Steam Deck", 350, "2021-08-22");
+		Console c2 = new Console("Nintendo Switch", 350, "2021-12-22");
 		
 		Jeu j1 = new Jeu("Dead Cells", c1);
 		Jeu j2 = new Jeu("Slay The Spire", c1);
