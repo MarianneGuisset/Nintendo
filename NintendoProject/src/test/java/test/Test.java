@@ -14,6 +14,8 @@ public class Test {
 		Jeu j4 = new Jeu("Dicey Dungeons", c1);
 		Jeu j5 = new Jeu("Baba is you", c2);
 		
+		Client cl1 = new Client("Ney","Davout");
+		Client cl2 = new Client("Lannes","Murat");
 		
 		
 
