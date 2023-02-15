@@ -13,7 +13,7 @@ public class Console {
 	}
 	
 	
-
+//gregrez
 	public String getNom() {
 		return nom;
 	}
