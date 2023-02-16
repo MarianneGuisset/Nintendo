@@ -1,5 +1,12 @@
 package model;
 
-public class Hybride {
+public class Hybride extends Console {
+
+	public Hybride(String nom, double prix, String dateSortie) {
+		super(nom, prix, dateSortie);
+		
+	}
+
+	
 
 }
