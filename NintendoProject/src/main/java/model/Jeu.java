@@ -6,13 +6,13 @@ public class Jeu {
 
 	private String titre;
 	private Console console;
-	private String boutique;
+	private Boutique boutique;
 	
 	
 
 
 
-	public Jeu(String titre, Console console, String boutique) {
+	public Jeu(String titre, Console console, Boutique boutique) {
 		super();
 		this.titre = titre;
 		this.console = console;
@@ -21,13 +21,13 @@ public class Jeu {
 
 
 
-	public String getBoutique() {
+	public Boutique getBoutique() {
 		return boutique;
 	}
 
 
 
-	public void setBoutique(String boutique) {
+	public void setBoutique(Boutique boutique) {
 		this.boutique = boutique;
 	}
 
