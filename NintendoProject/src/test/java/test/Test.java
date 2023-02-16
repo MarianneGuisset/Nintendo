@@ -30,9 +30,6 @@ public class Test {
 		Client cl1 = new Client("Ney","Davout");
 		cl1.getAchats().add(a);
 		Client cl2 = new Client("Lannes","Murat");
-		
-		
-
 	}
 
 }
